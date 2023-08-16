@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="getUrl" value="https://www.nykaa.com/"/>
+  <parameter name="pageTitle" value="Himalaya Baby Powder: Buy"/>
+  <parameter name="himalayaTitle" value="Shop For The Best Baby Powder"/>
+  <parameter name="weight" value="200g"/>
+  <classes>
+  	<class name="org.testdata.TestngNykaa"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
